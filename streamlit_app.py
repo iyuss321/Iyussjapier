@@ -1,7 +1,7 @@
 import streamlit as st
 
-st.title("IYUS JAPIER GAJALAH")
+st.title("IYUS  JAPIER  GAJALAH")
 st.write(
-    "AGS JAYA"
+    "AGS  JAYA"
 )
 st.image("IMG-20250515-WA0045.jpeg", width=200) 
