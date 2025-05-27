@@ -8,7 +8,7 @@ st.image("IMG-20250515-WA0045.jpeg", width=500)
 
 st.title("IYUSS GAMESS") 
 st.header("Aplikasi Pengecek Nilai Ganjil Dan Genap")
-angka = st.number_input("Tulis Sebuah Angka:", value=0, Step=1) 
+angka = st.number_input("Tulis Sebuah Angka:", value= 0, step= 1) 
 
 
 if(angka % 2) == 0:
