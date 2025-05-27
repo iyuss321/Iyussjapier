@@ -5,3 +5,13 @@ st.write(
     "AGS  JAYA"
 )
 st.image("IMG-20250515-WA0045.jpeg", width=500) 
+
+st.title("IYUSS GAMESS") 
+st.header("Aplikasi Pengecek Nilai Ganjil Dan Genap")
+angka = st.number_input("tulis sebuah angka:", value=0, Step=1) 
+
+
+if(angka % 2) == 0:
+    st.write(f"{angka} Adalah Bilangan Genap") 
+else:
+    st.write(f"{angka} Adalah Bilangan Ganjil") 
